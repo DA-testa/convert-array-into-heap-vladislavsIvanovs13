@@ -38,7 +38,7 @@ def main():
     command = input()
     if "F" in command:
         file_name = input()
-        path = "test/" + file_name
+        path = "tests/" + file_name
         if not "a" in file_name:
             contents = open(path, "r")
             text = contents.read()
